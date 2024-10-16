@@ -1,0 +1,37 @@
+ALGORITHM Ticket pricing
+VAR age , price 
+ 
+
+BEGIN
+OUTPUT "enteruear age"
+INPUT "age"
+
+IF age<- 12 THEN price <-10 
+ IF (conditon) THEN
+
+
+ 
+ ELSE_IF age >= 13 AND age <= 17 THEN
+
+ price <- 15 
+
+
+    
+ ELSE_IF age >= 18 THEN
+
+ price <-20
+
+ ELSE 
+ OUTPUT  "invalid age "
+
+
+
+  RETURN
+    
+ END_IF
+
+ OUTPUT " the ticket price is $"+ price
+
+
+    
+END
